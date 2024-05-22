@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 100;
+    box-family: "Arial";
+}
+
+body{
+    background-color: dodgerblue;
+    width: 100%;
+    min-height: 100%;
+    display: grid;
+    place-items: center;
+}
+
+div.box{
+    min-width: 900px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 15px;
+    text-align: center;
+    
+}
+
+div.box h1{
+    font-size: 22pt;
+    color: rgb(80,80,80);
+    margin: 15px 0;
+
+}
+
+
+div.box button{
+    font-size: 16pt;
+    padding: 10px 15px;
+    border: 0;
+    border-radius: 5px;
+    background-color: dodgerblue;
+    color: white;
+    cursor: pointer;
+
+}
